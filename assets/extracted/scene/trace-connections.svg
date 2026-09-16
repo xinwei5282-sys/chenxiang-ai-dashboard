@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1671" height="941" viewBox="0 0 1671 941">
+<!-- Rear arc connects the upper nodes; the lower return follows the pedestal.
+     Subject circles occlude the tracks. Caption masks have feathered edges. -->
+<defs>
+ <path id="rear" d="M544 503 C544 395 701 296 835 296 C969 296 1125 395 1125 503"/>
+ <path id="front" d="M1125 503 C1100 540 1052 565 1022 582 C966 613 904 637 834 637 C764 637 702 613 646 582 C616 565 568 540 544 503"/>
+ <filter id="halo" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="2.6"/></filter>
+ <filter id="caption-feather" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+ <linearGradient id="rear-light" x1="0" y1="296" x2="0" y2="510" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#77d9ff" stop-opacity=".95"/><stop offset=".5" stop-color="#2baaff" stop-opacity=".7"/><stop offset="1" stop-color="#35b9ff" stop-opacity=".35"/>
+ </linearGradient>
+ <linearGradient id="front-light" x1="544" y1="0" x2="1125" y2="0" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#229ce9" stop-opacity=".25"/><stop offset=".23" stop-color="#3abbff" stop-opacity=".5"/><stop offset=".5" stop-color="#adeaff" stop-opacity=".82"/><stop offset=".77" stop-color="#3abbff" stop-opacity=".5"/><stop offset="1" stop-color="#229ce9" stop-opacity=".25"/>
+ </linearGradient>
+ <radialGradient id="spark"><stop stop-color="#d2f5ff" stop-opacity="1"/><stop offset=".19" stop-color="#89dfff" stop-opacity=".88"/><stop offset=".5" stop-color="#1ca9ff" stop-opacity=".25"/><stop offset="1" stop-color="#158dff" stop-opacity="0"/></radialGradient>
+ <mask id="caption-clear" maskUnits="userSpaceOnUse" x="0" y="0" width="1671" height="941"><rect width="1671" height="941" fill="white"/><g fill="black" filter="url(#caption-feather)"><rect x="603" y="414" width="94" height="25" rx="5"/><rect x="574" y="439" width="152" height="22" rx="5"/><rect x="788" y="356" width="94" height="25" rx="5"/><rect x="759" y="381" width="152" height="22" rx="5"/><rect x="974" y="414" width="94" height="25" rx="5"/><rect x="945" y="439" width="152" height="22" rx="5"/><rect x="1078" y="563" width="94" height="25" rx="5"/><rect x="1049" y="588" width="152" height="22" rx="5"/><rect x="787" y="690" width="94" height="25" rx="5"/><rect x="758" y="715" width="152" height="22" rx="5"/><rect x="497" y="563" width="94" height="25" rx="5"/><rect x="468" y="588" width="152" height="22" rx="5"/></g></mask>
+</defs>
+<g mask="url(#caption-clear)" fill="none" stroke-linecap="round">
+ <use href="#rear" stroke="url(#rear-light)" stroke-width="5" opacity=".62" filter="url(#halo)"/>
+ <use href="#rear" stroke="url(#rear-light)" stroke-width="1.3"/>
+ <use href="#rear" transform="translate(835 503) scale(.965 .962) translate(-835 -503)" stroke="#3f9ad0" stroke-width=".65" opacity=".38"/>
+ <!-- Short light streaks create uneven highlights instead of a uniform outline. -->
+ <path d="M691 328 Q724 313 756 307 M902 304 Q934 310 962 323" stroke="#a9eaff" stroke-width="1.7" opacity=".8"/>
+ <path d="M691 328 Q724 313 756 307 M902 304 Q934 310 962 323" stroke="#44bdff" stroke-width="5" opacity=".6" filter="url(#halo)"/>
+ <use href="#front" stroke="url(#front-light)" stroke-width="4" opacity=".35" filter="url(#halo)"/>
+ <use href="#front" stroke="url(#front-light)" stroke-width="1.15"/>
+ <g opacity="0.9"><circle cx="721" cy="317" r="10" fill="url(#spark)"/><circle cx="721" cy="317" r="1.5" fill="#d8f5ff"/></g><g opacity="0.9"><circle cx="945" cy="316" r="10" fill="url(#spark)"/><circle cx="945" cy="316" r="1.5" fill="#d8f5ff"/></g><g opacity="1"><circle cx="560" cy="443" r="12" fill="url(#spark)"/><circle cx="560" cy="443" r="1.5" fill="#d8f5ff"/></g><g opacity="1"><circle cx="1109" cy="443" r="12" fill="url(#spark)"/><circle cx="1109" cy="443" r="1.5" fill="#d8f5ff"/></g><g opacity="0.55"><circle cx="731" cy="619" r="7" fill="url(#spark)"/><circle cx="731" cy="619" r="1.5" fill="#d8f5ff"/></g><g opacity="0.55"><circle cx="937" cy="619" r="7" fill="url(#spark)"/><circle cx="937" cy="619" r="1.5" fill="#d8f5ff"/></g>
+</g>
+</svg>

@@ -1,0 +1,160 @@
+{
+  "reference": "assets/selected/reference.png",
+  "sourceSize": [
+    1671,
+    941
+  ],
+  "icons": {
+    "trace-nursery": {
+      "source": {
+        "x": 590,
+        "y": 294,
+        "width": 120,
+        "height": 120
+      },
+      "output": {
+        "path": "assets/extracted/icons/trace-nursery.png",
+        "width": 120,
+        "height": 120,
+        "mode": "RGBA"
+      },
+      "alpha": "Original reference subject and visible circle preserved; caption-obscured lower crescent restored with sampled source interior and reflected source arc; outer glow feathered"
+    },
+    "trace-base": {
+      "source": {
+        "x": 775,
+        "y": 236,
+        "width": 120,
+        "height": 120
+      },
+      "output": {
+        "path": "assets/extracted/icons/trace-base.png",
+        "width": 120,
+        "height": 120,
+        "mode": "RGBA"
+      },
+      "alpha": "Original reference subject and visible circle preserved; caption-obscured lower crescent restored with sampled source interior and reflected source arc; outer glow feathered"
+    },
+    "trace-raw": {
+      "source": {
+        "x": 961,
+        "y": 294,
+        "width": 120,
+        "height": 120
+      },
+      "output": {
+        "path": "assets/extracted/icons/trace-raw.png",
+        "width": 120,
+        "height": 120,
+        "mode": "RGBA"
+      },
+      "alpha": "Original reference subject and visible circle preserved; caption-obscured lower crescent restored with sampled source interior and reflected source arc; outer glow feathered"
+    },
+    "trace-factory": {
+      "source": {
+        "x": 1065,
+        "y": 443,
+        "width": 120,
+        "height": 120
+      },
+      "output": {
+        "path": "assets/extracted/icons/trace-factory.png",
+        "width": 120,
+        "height": 120,
+        "mode": "RGBA"
+      },
+      "alpha": "Original reference subject and visible circle preserved; caption-obscured lower crescent restored with sampled source interior and reflected source arc; outer glow feathered"
+    },
+    "trace-product": {
+      "source": {
+        "x": 774,
+        "y": 570,
+        "width": 120,
+        "height": 120
+      },
+      "output": {
+        "path": "assets/extracted/icons/trace-product.png",
+        "width": 120,
+        "height": 120,
+        "mode": "RGBA"
+      },
+      "alpha": "Original reference subject and visible circle preserved; caption-obscured lower crescent restored with sampled source interior and reflected source arc; outer glow feathered"
+    },
+    "trace-transport": {
+      "source": {
+        "x": 484,
+        "y": 443,
+        "width": 120,
+        "height": 120
+      },
+      "output": {
+        "path": "assets/extracted/icons/trace-transport.png",
+        "width": 120,
+        "height": 120,
+        "mode": "RGBA"
+      },
+      "alpha": "Original reference subject and visible circle preserved; caption-obscured lower crescent restored with sampled source interior and reflected source arc; outer glow feathered"
+    },
+    "ai-knowledge": {
+      "source": {
+        "x": 47,
+        "y": 259,
+        "width": 71,
+        "height": 62
+      },
+      "output": {
+        "path": "assets/extracted/icons/ai-knowledge.png",
+        "width": 71,
+        "height": 62,
+        "mode": "RGBA"
+      },
+      "alpha": "rounded rectangle (9px radius), original pixels retained"
+    },
+    "ai-traceability": {
+      "source": {
+        "x": 47,
+        "y": 331,
+        "width": 71,
+        "height": 62
+      },
+      "output": {
+        "path": "assets/extracted/icons/ai-traceability.png",
+        "width": 71,
+        "height": 62,
+        "mode": "RGBA"
+      },
+      "alpha": "rounded rectangle (9px radius), original pixels retained"
+    },
+    "ai-analysis": {
+      "source": {
+        "x": 47,
+        "y": 403,
+        "width": 71,
+        "height": 62
+      },
+      "output": {
+        "path": "assets/extracted/icons/ai-analysis.png",
+        "width": 71,
+        "height": 62,
+        "mode": "RGBA"
+      },
+      "alpha": "rounded rectangle (9px radius), original pixels retained"
+    },
+    "ai-warning": {
+      "source": {
+        "x": 47,
+        "y": 475,
+        "width": 71,
+        "height": 62
+      },
+      "output": {
+        "path": "assets/extracted/icons/ai-warning.png",
+        "width": 71,
+        "height": 62,
+        "mode": "RGBA"
+      },
+      "alpha": "rounded rectangle (9px radius), original pixels retained"
+    }
+  },
+  "contactSheet": "audit/icons-extracted-contact.png"
+}

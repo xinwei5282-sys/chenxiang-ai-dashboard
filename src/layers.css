@@ -1,0 +1,95 @@
+/* Independent PNG assets; foreground UI copy remains native text. */
+.forest-scene{filter:none;z-index:0;object-fit:cover}
+.tree-orbit-art{position:absolute;left:432px;top:279px;width:804px;height:500px;object-fit:contain;pointer-events:none;z-index:1;mix-blend-mode:normal}
+.tech-panel{background:none;border-color:transparent;box-shadow:none;isolation:isolate}
+.tech-panel:before,.tech-panel:after{display:none}
+.panel-backdrop{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;object-fit:fill}
+.source-icon{display:block;flex-shrink:0;object-fit:contain}
+.capability-icon{border:0;background:none;overflow:visible}
+.node-hit{display:flex;align-items:center;justify-content:center;height:81px;width:98px;border-radius:50%}
+.trace-scene{z-index:3}
+.trace-intro,.trace-node strong,.trace-node small{opacity:1}
+.trace-node strong,.trace-node small{position:relative;padding:0 6px;text-shadow:0 1px 2px #001222}
+.trace-node strong{font-weight:600;line-height:24px}.trace-node small{letter-spacing:.25px}
+.chain-status{background:none;box-shadow:none;clip-path:none;isolation:isolate}
+.status-backdrop{position:absolute;left:-5px;top:-5px;width:479px;height:60px;z-index:-1;pointer-events:none}
+.header-backdrop{position:absolute;left:0;top:0;width:1671px;height:97px;z-index:2;pointer-events:none;object-fit:fill}
+.screen-header{background:none;border:0;z-index:3}
+.screen-header:before,.screen-header:after{display:none}
+.footer-backdrop{position:absolute;left:340px;bottom:0;width:992px;height:91px;z-index:2;pointer-events:none;object-fit:fill}
+.screen-footer{background:none;border:0;box-shadow:none;z-index:3}
+.headline-metrics,.panel,.story-banner,.fullscreen{z-index:3}
+.story-banner{background-image:linear-gradient(90deg,#00213370,#00253711),url('/assets/layers/01-forest-background.png')}
+.reference-assistant>img{position:absolute;max-width:none;object-fit:fill;left:0;top:0;transform:none}
+.reference-assistant>.assistant-background{width:398px;height:342px;z-index:0}
+.reference-assistant>.assistant-character{width:192px;height:342px;left:61px;z-index:1}
+
+.panel-heading{background:none;border:0;isolation:isolate}
+.panel-heading:before{display:none}
+
+.reference-assistant>.assistant-calligraphy{width:64px;height:256px;left:309px;top:39px;z-index:2}
+
+/* Original handwritten header slogan, including its natural underline. */
+.screen-clock{position:relative;height:91px;padding-top:0}
+.brand-slogan{position:absolute;right:1px;top:19px;width:222px;height:44px;object-fit:contain}
+.screen-clock time{position:absolute;right:6px;top:63px;padding:0}
+
+/* Full trace circles: padding for glow and labels below the lower rim. */
+.trace-node{transform:translate(-50%,-60px)}
+.node-hit{position:relative;width:120px;height:110px;overflow:visible}
+.node-hit>.source-icon-trace{position:absolute;left:0;top:0;width:120px;height:120px}
+
+/* Keep labels outside the entire 120px circle; no dark caption bed over the lower rim. */
+.trace-node .node-hit{height:120px}
+
+.reference-assistant{left:0;top:47px;width:398px;height:342px;right:auto;bottom:auto}
+
+/* Four KPI symbols are source cutouts including their original luminous rings. */
+.metric-icon{position:relative;border:0;background:none;box-shadow:none}
+.metric-source-icon{position:absolute;left:-6px;top:-6px;width:80px;height:80px;max-width:none;filter:none}
+.headline-metrics{display:block;right:auto;width:1616px}
+.headline-metric{position:absolute;top:0;height:88px}
+.headline-metric:nth-child(1){left:0;width:384px;padding-left:44px}
+.headline-metric:nth-child(2){left:405px;width:387px;padding-left:35px}
+.headline-metric:nth-child(3){left:823px;width:382px;padding-left:33px}
+.headline-metric:nth-child(4){left:1225px;width:391px;padding-left:43px}
+
+/* Reference bubbles retain their source rim, luminous flecks and shaded subjects. */
+.trace-node .node-hit::before,.trace-node .node-hit::after{content:none}
+
+/* Reference orbital links sit beneath the six circles and clear their captions. */
+.trace-connections{position:absolute;inset:0;width:1671px;height:941px;pointer-events:none;z-index:0}
+.trace-node,.trace-intro,.chain-status{z-index:1}
+
+/* Each caption follows the measured reference bed, rather than a shared gap. */
+.trace-node .node-hit{height:120px}
+.trace-node.nursery{--caption-top:90px;--caption-x:650px;--caption-y:384px}
+.trace-node.base{--caption-top:88px;--caption-x:835px;--caption-y:324px}
+.trace-node.raw{--caption-top:95px;--caption-x:1021px;--caption-y:389px}
+.trace-node.factory{--caption-top:98px;--caption-x:1125px;--caption-y:541px}
+.trace-node.transport{--caption-top:98px;--caption-x:544px;--caption-y:541px}
+.trace-node.product{--caption-top:95px;--caption-x:834px;--caption-y:665px}
+.node-caption{
+  position:absolute;top:var(--caption-top);left:50%;transform:translateX(-50%);z-index:2;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  width:max-content;padding:3px 6px 5px;border-radius:5px;
+  isolation:isolate;
+}
+.node-caption::before{
+  content:"";position:absolute;inset:0;border-radius:inherit;z-index:-1;pointer-events:none;
+  background:linear-gradient(90deg,transparent,rgba(0,29,49,.55) 20%,rgba(0,29,49,.55) 80%,transparent);
+  /* Only the background is cleared over the video tree; text stays readable. */
+  mask-image:radial-gradient(ellipse 158px 175px at calc(835px - var(--caption-x) + 50%) calc(520px - var(--caption-y)),transparent 97%,#000 100%);
+  -webkit-mask-image:radial-gradient(ellipse 158px 175px at calc(835px - var(--caption-x) + 50%) calc(520px - var(--caption-y)),transparent 97%,#000 100%);
+}
+.trace-node .node-caption strong{
+  margin:0;padding:0;font-size:16px;font-weight:600;letter-spacing:1px;
+  line-height:25px;color:#f0f8ff;text-shadow:0 1px 2px #001c30;
+}
+.trace-node .node-caption small{
+  padding:0;font-size:14px;font-weight:400;letter-spacing:.3px;
+  line-height:21px;color:#d5e9f7;text-shadow:0 1px 2px #001c30;
+}
+
+/* Reference caption beds sit in front of the overlapping lower circle. */
+.trace-node .node-hit{z-index:1}

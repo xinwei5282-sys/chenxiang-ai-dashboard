@@ -1,0 +1,147 @@
+{
+  "source": "../selected/reference.png",
+  "sourceSize": [
+    1671,
+    941
+  ],
+  "coordinateConvention": "x,y,width,height; reference pixels",
+  "alphaNote": "Interior glass fill is reconstructed as uniform deep-blue alpha ~0.75; source alpha is not claimed recovered.",
+  "borderNote": "Cyan perimeter, clipped corners, glow pixels and title accents are retained from source RGB pixels.",
+  "panels": {
+    "metric-archive": {
+      "bbox": [
+        28,
+        102,
+        384,
+        88
+      ],
+      "file": "assets/extracted/panels/metric-archive.png",
+      "size": [
+        384,
+        88
+      ],
+      "preservedSourcePixels": 1872,
+      "fill": "reconstructed"
+    },
+    "metric-batch": {
+      "bbox": [
+        433,
+        102,
+        387,
+        88
+      ],
+      "file": "assets/extracted/panels/metric-batch.png",
+      "size": [
+        387,
+        88
+      ],
+      "preservedSourcePixels": 1884,
+      "fill": "reconstructed"
+    },
+    "metric-nodes": {
+      "bbox": [
+        851,
+        102,
+        382,
+        88
+      ],
+      "file": "assets/extracted/panels/metric-nodes.png",
+      "size": [
+        382,
+        88
+      ],
+      "preservedSourcePixels": 1864,
+      "fill": "reconstructed"
+    },
+    "metric-ai": {
+      "bbox": [
+        1253,
+        102,
+        391,
+        88
+      ],
+      "file": "assets/extracted/panels/metric-ai.png",
+      "size": [
+        391,
+        88
+      ],
+      "preservedSourcePixels": 1900,
+      "fill": "reconstructed"
+    },
+    "capabilities": {
+      "bbox": [
+        28,
+        202,
+        392,
+        348
+      ],
+      "file": "assets/extracted/panels/capabilities.png",
+      "size": [
+        392,
+        348
+      ],
+      "preservedSourcePixels": 3436,
+      "fill": "reconstructed"
+    },
+    "alerts": {
+      "bbox": [
+        28,
+        562,
+        392,
+        216
+      ],
+      "file": "assets/extracted/panels/alerts.png",
+      "size": [
+        392,
+        216
+      ],
+      "preservedSourcePixels": 2896,
+      "fill": "reconstructed"
+    },
+    "assistant": {
+      "bbox": [
+        1244,
+        202,
+        400,
+        391
+      ],
+      "file": "assets/extracted/panels/assistant.png",
+      "size": [
+        400,
+        391
+      ],
+      "preservedSourcePixels": 3681,
+      "fill": "reconstructed"
+    },
+    "products": {
+      "bbox": [
+        1244,
+        605,
+        400,
+        256
+      ],
+      "file": "assets/extracted/panels/products.png",
+      "size": [
+        400,
+        256
+      ],
+      "preservedSourcePixels": 3112,
+      "fill": "reconstructed"
+    },
+    "brand-story": {
+      "bbox": [
+        28,
+        788,
+        392,
+        74
+      ],
+      "file": "assets/extracted/panels/brand-story.png",
+      "size": [
+        392,
+        74
+      ],
+      "preservedSourcePixels": 1848,
+      "fill": "reconstructed"
+    }
+  }
+}

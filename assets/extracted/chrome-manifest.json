@@ -1,0 +1,34 @@
+{
+  "source": "assets/selected/reference.png",
+  "coordinateConvention": "x,y,width,height",
+  "items": {
+    "status-background.png": {
+      "bbox": [
+        597,
+        748,
+        479,
+        60
+      ],
+      "notes": "source cyan outline; text removed; interior reconstructed"
+    },
+    "header-background.png": {
+      "bbox": [
+        0,
+        0,
+        1671,
+        97
+      ],
+      "notes": "Full-width source horizontal band, complete parallel optical wings and outer bloom. Cyan source light matte over plain navy glass; no forest RGB or text. Optical bounds are not clipped to the heading box."
+    },
+    "footer-background.png": {
+      "bbox": [
+        340,
+        850,
+        992,
+        91
+      ],
+      "notes": "source trapezoid outline/top glow; labels and icons removed"
+    }
+  },
+  "alpha": "outside contours transparent; interior glass semi-transparent; source PNG cannot restore underlying alpha losslessly"
+}

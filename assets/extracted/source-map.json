@@ -1,0 +1,157 @@
+{
+  "reference": "../selected/reference.png",
+  "sourceSize": [
+    1671,
+    941
+  ],
+  "coordinateConvention": "x,y,width,height; reference pixels",
+  "panels": {
+    "metric-archive": [
+      28,
+      102,
+      384,
+      88
+    ],
+    "metric-batch": [
+      433,
+      102,
+      387,
+      88
+    ],
+    "metric-nodes": [
+      851,
+      102,
+      382,
+      88
+    ],
+    "metric-ai": [
+      1253,
+      102,
+      391,
+      88
+    ],
+    "capabilities": [
+      28,
+      202,
+      392,
+      348
+    ],
+    "alerts": [
+      28,
+      562,
+      392,
+      216
+    ],
+    "assistant": [
+      1244,
+      202,
+      400,
+      391
+    ],
+    "products": [
+      1244,
+      605,
+      400,
+      256
+    ],
+    "brand-story": [
+      28,
+      788,
+      392,
+      74
+    ]
+  },
+  "icons": {
+    "trace-nursery": [
+      590,
+      294,
+      120,
+      120
+    ],
+    "trace-base": [
+      775,
+      236,
+      120,
+      120
+    ],
+    "trace-raw": [
+      961,
+      294,
+      120,
+      120
+    ],
+    "trace-factory": [
+      1065,
+      443,
+      120,
+      120
+    ],
+    "trace-product": [
+      774,
+      570,
+      120,
+      120
+    ],
+    "trace-transport": [
+      484,
+      443,
+      120,
+      120
+    ],
+    "ai-knowledge": [
+      47,
+      259,
+      71,
+      62
+    ],
+    "ai-traceability": [
+      47,
+      331,
+      71,
+      62
+    ],
+    "ai-analysis": [
+      47,
+      403,
+      71,
+      62
+    ],
+    "ai-warning": [
+      47,
+      475,
+      71,
+      62
+    ]
+  },
+  "statusBackground": [
+    597,
+    748,
+    479,
+    60
+  ],
+  "headerBackground": [
+    0,
+    0,
+    1671,
+    97
+  ],
+  "footerBackground": [
+    340,
+    850,
+    992,
+    91
+  ],
+  "assistantArtwork": [
+    1245,
+    250,
+    398,
+    342
+  ],
+  "assistantCharacterBounds": [
+    1306,
+    250,
+    192,
+    342
+  ],
+  "processingStatus": "local source pixel extraction authorized and completed"
+}

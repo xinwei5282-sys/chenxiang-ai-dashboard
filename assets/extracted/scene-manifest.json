@@ -1,0 +1,65 @@
+{
+  "size": [
+    1671,
+    941
+  ],
+  "file": "scene/full-scene.png",
+  "source": "assets/selected/reference.png",
+  "method": "Original source pixels retained for tree, globe, pedestal, tracks and six icons. Node lettering beds locally repaired from clean neighbouring colours.",
+  "preservedCentralPixels": 331945,
+  "fillBoundary": "UI-covered scenery uses a reconstructed clean background; hidden pixels cannot be recovered from a flattened PNG.",
+  "forestSeamCorrection": {
+    "box": [
+      1158,
+      184,
+      307,
+      366
+    ],
+    "method": "Nearby clean forest texture replaces the mismatched fog patch with feathered edges; original central pixels unchanged."
+  },
+  "textRemovalRegions": [
+    [
+      750,
+      201,
+      919,
+      246
+    ],
+    [
+      578,
+      390,
+      725,
+      434
+    ],
+    [
+      763,
+      328,
+      909,
+      370
+    ],
+    [
+      969,
+      390,
+      1089,
+      434
+    ],
+    [
+      1061,
+      545,
+      1203,
+      591
+    ],
+    [
+      769,
+      668,
+      907,
+      714
+    ],
+    [
+      475,
+      546,
+      617,
+      591
+    ]
+  ],
+  "sceneryFillBoxes": []
+}

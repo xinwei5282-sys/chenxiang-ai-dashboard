@@ -1,0 +1,45 @@
+{
+  "source": "assets/selected/reference.png",
+  "items": {
+    "archive": {
+      "bbox": [
+        68,
+        107,
+        80,
+        80
+      ],
+      "alpha": "34px intact radius with 5px soft padding",
+      "sourceRGB": "unchanged"
+    },
+    "batch": {
+      "bbox": [
+        462,
+        107,
+        80,
+        80
+      ],
+      "alpha": "34px intact radius with 5px soft padding",
+      "sourceRGB": "unchanged"
+    },
+    "nodes": {
+      "bbox": [
+        879,
+        107,
+        80,
+        80
+      ],
+      "alpha": "34px intact radius with 5px soft padding",
+      "sourceRGB": "unchanged"
+    },
+    "ai": {
+      "bbox": [
+        1290,
+        107,
+        80,
+        80
+      ],
+      "alpha": "34px intact radius with 5px soft padding",
+      "sourceRGB": "unchanged"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source": "assets/selected/reference.png",
+  "backgroundBox": [
+    1245,
+    250,
+    398,
+    342
+  ],
+  "characterOffset": [
+    61,
+    0
+  ],
+  "characterSize": [
+    192,
+    342
+  ],
+  "method": "Original RGB with manually measured matte and GrabCut boundary refinement. Character-occluded background locally inpainted; not recovered original layers.",
+  "background": "Transparent source-position halo arcs and upper geometric facet; clean cyan matte, no floor/forest/gray cloud. Same halo as the main scene.",
+  "calligraphyOffset": [
+    309,
+    39
+  ],
+  "calligraphySize": [
+    64,
+    256
+  ],
+  "calligraphy": "Original gold lettering and red seal with colour matte and edge decontamination.",
+  "scene": "Halo re-matted from original reference contours and measured cyan stroke strength; source arc positions retained, occluded/noisy stroke samples interpolated. Upper translucent facet matte locally reconstructed. No repaired scene RGB, forest or gray cloud. Platform rows 329 onward preserved; character and lettering unchanged."
+}
