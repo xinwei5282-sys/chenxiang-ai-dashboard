@@ -19,7 +19,7 @@
 .footer-backdrop{position:absolute;left:340px;bottom:0;width:992px;height:91px;z-index:2;pointer-events:none;object-fit:fill}
 .screen-footer{background:none;border:0;box-shadow:none;z-index:3}
 .headline-metrics,.panel,.story-banner,.fullscreen{z-index:3}
-.story-banner{background-image:linear-gradient(90deg,#00213370,#00253711),url('/assets/layers/01-forest-background.png')}
+.story-banner{background-image:linear-gradient(90deg,#00213370,#00253711),url('../assets/layers/01-forest-background.png')}
 .reference-assistant>img{position:absolute;max-width:none;object-fit:fill;left:0;top:0;transform:none}
 .reference-assistant>.assistant-background{width:398px;height:342px;z-index:0}
 .reference-assistant>.assistant-character{width:auto;height:342px;left:61px;z-index:1;object-fit:contain}

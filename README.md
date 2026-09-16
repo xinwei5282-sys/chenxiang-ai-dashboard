@@ -1,5 +1,11 @@
 # 广垦沉香 AI 产业大脑 · 前端复刻
 
+## 在线预览
+
+- GitHub Pages：https://xinwei5282-sys.github.io/chenxiang-ai-dashboard/
+- 仓库：https://github.com/xinwei5282-sys/chenxiang-ai-dashboard
+- Pages 从 `main` 分支根目录自动部署；静态入口无需构建。资源使用相对路径，兼容仓库子目录与本地预览。
+
 按2026-09-11客户提供的选定图 `assets/selected/reference.png` 复刻。当前推荐预览： http://127.0.0.1:4187/ 。前端展示（背景视频自动循环），不接真实业务接口或AI服务。
 
 ## 当前背景（2026-09-16）

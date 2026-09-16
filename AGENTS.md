@@ -1,3 +1,7 @@
+## GitHub Pages 发布（2026-09-16）
+
+用户已授权新建独立公开仓库 `xinwei5282-sys/chenxiang-ai-dashboard` 并开启网页预览。Pages 从 main 根目录部署，入口 `https://xinwei5282-sys.github.io/chenxiang-ai-dashboard/`。保持HTML/JS资源相对页面、CSS资源相对样式文件的路径，不恢复 `/assets/` 或 `/src/` 根路径。`.nojekyll` 用于直接托管静态文件。
+
 ## 当前：使用用户提供的招手 IP（2026-09-16）
 
 数字人已替换为 `assets/selected/assistant-wave-source.png`。使用用户提供的透明PNG原像素，仅裁去透明留白；入口 `scripts/prepare_assistant_character.py`。保持342px高度并等比显示，left61px让身体落在光晕台面中间。旧三视图人物仅保留为历史素材；重跑助手提取脚本优先应用招手IP。
