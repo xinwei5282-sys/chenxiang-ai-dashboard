@@ -58,3 +58,9 @@ import runpy
 runpy.run_path(str(ROOT/"scripts/extract_assistant_decor.py"),run_name="__main__")
 
 runpy.run_path(str(ROOT/"scripts/restore_assistant_scene.py"),run_name="__main__")
+
+# The user-supplied character sheet supersedes the old reference figure.
+if (ROOT/'assets/selected/assistant-wave-source.png').exists():
+    runpy.run_path(str(ROOT/'scripts/prepare_assistant_character.py'), run_name='__main__')
+elif (ROOT/'assets/selected/assistant-character-reference.png').exists():
+    runpy.run_path(str(ROOT/'scripts/extract_selected_character.py'), run_name='__main__')

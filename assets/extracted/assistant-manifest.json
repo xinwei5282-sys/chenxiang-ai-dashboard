@@ -11,10 +11,10 @@
     0
   ],
   "characterSize": [
-    192,
-    342
+    682,
+    1368
   ],
-  "method": "Original RGB with manually measured matte and GrabCut boundary refinement. Character-occluded background locally inpainted; not recovered original layers.",
+  "method": "User-supplied waving IP PNG; only transparent canvas trimmed. Original RGB and alpha preserved. Scene and calligraphy retained separately.",
   "background": "Transparent source-position halo arcs and upper geometric facet; clean cyan matte, no floor/forest/gray cloud. Same halo as the main scene.",
   "calligraphyOffset": [
     309,
@@ -25,5 +25,12 @@
     256
   ],
   "calligraphy": "Original gold lettering and red seal with colour matte and edge decontamination.",
-  "scene": "Halo re-matted from original reference contours and measured cyan stroke strength; source arc positions retained, occluded/noisy stroke samples interpolated. Upper translucent facet matte locally reconstructed. No repaired scene RGB, forest or gray cloud. Platform rows 329 onward preserved; character and lettering unchanged."
+  "scene": "Halo re-matted from original reference contours and measured cyan stroke strength; source arc positions retained, occluded/noisy stroke samples interpolated. Upper translucent facet matte locally reconstructed. No repaired scene RGB, forest or gray cloud. Platform rows 329 onward preserved; character and lettering unchanged.",
+  "characterSource": "assets/selected/assistant-wave-source.png",
+  "characterSourceBox": [
+    149,
+    3,
+    831,
+    1371
+  ]
 }

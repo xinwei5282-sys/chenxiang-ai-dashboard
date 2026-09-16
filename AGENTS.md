@@ -1,3 +1,11 @@
+## 当前：使用用户提供的招手 IP（2026-09-16）
+
+数字人已替换为 `assets/selected/assistant-wave-source.png`。使用用户提供的透明PNG原像素，仅裁去透明留白；入口 `scripts/prepare_assistant_character.py`。保持342px高度并等比显示，left61px让身体落在光晕台面中间。旧三视图人物仅保留为历史素材；重跑助手提取脚本优先应用招手IP。
+
+## 历史：使用用户提供的数字人三视图（2026-09-16）
+
+右侧数字人使用 `assets/selected/assistant-character-reference.png` 的正面人物，保留原图RGB，通过 `scripts/extract_selected_character.py` 的轮廓与GrabCut提取透明素材；不再使用旧参考图中的人物。显示高度342px、宽度自动等比，沿用原光晕、台面及书法。重跑旧助手提取脚本会在最后应用新人物，避免恢复错误造型。
+
 ## 当前：标题底板避让中央树与 Git（2026-09-16）
 
 标题底板按文字收窄，左右渐隐，使用透明蒙版避让中央树区域；标题位置、字号及文字显示保持原设定。大屏现独立使用本目录 Git 仓库，历史验收截图和备份目录 `audit/` 不入库；旁边 `prototype/` 是小程序独立仓库。以下无 Git 仓库的说明为历史记录。
