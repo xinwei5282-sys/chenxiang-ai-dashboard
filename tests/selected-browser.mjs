@@ -43,7 +43,7 @@ for(const [width,height] of [[1920,1080],[1440,900],[3840,2160]]){
  await page.setViewportSize({width,height});await page.waitForTimeout(100);
  assert(await page.locator('#screen').evaluate(e=>{const r=e.getBoundingClientRect();return r.left>=-1&&r.top>=-1&&r.right<=innerWidth+1&&r.bottom<=innerHeight+1}));
  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth&&document.documentElement.scrollHeight<=innerHeight));
- const issues=await page.locator('.capability,.alert-row,.product-row').evaluateAll(els=>els.flatMap(el=>{const p=el.closest('.panel').getBoundingClientRect();return [...el.children].filter(c=>{const r=c.getBoundingClientRect();return r.left<p.left-1||r.right>p.right+1||r.bottom>p.bottom+1}).map(c=>c.className)}));assert.deepEqual(issues,[],'面板内容不越界');
+ const issues=await page.locator('.capability,.alert-row,.product-row').evaluateAll(els=>els.flatMap(el=>{const panel=el.closest('.panel');const viewport=el.closest('.alert-viewport');if(viewport){const vr=viewport.getBoundingClientRect();const er=el.getBoundingClientRect();if(er.bottom<=vr.top+0.5||er.top>=vr.bottom-0.5)return [];}const p=panel.getBoundingClientRect();return [...el.children].filter(c=>{const r=c.getBoundingClientRect();return r.left<p.left-1||r.right>p.right+1||(!viewport&&r.bottom>p.bottom+1)}).map(c=>c.className)}));assert.deepEqual(issues,[],'面板内容不越界');
  if(width===1920||width===1440)await page.screenshot({path:`audit/selected-${width}.png`});checks.push(`${width}×${height} 整屏等比适配，面板与视口不溢出`);
 }
 await page.setViewportSize({width:1671,height:941});

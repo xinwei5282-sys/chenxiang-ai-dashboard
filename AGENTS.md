@@ -1,3 +1,7 @@
+## 当前：实时预警向上循环滚动（2026-09-18）
+
+用户明确要求实时预警动态滚动并增加数据。`src/screen.mjs` 保留20条固定展示样例，涵盖种植、原料、加工、检测、仓储和流通；不是实时业务告警。392×216面板内保留5行可视区，通过两组相同列表和80秒线性动画无缝向上循环，约4秒一行。复制组用aria-hidden隐藏；系统减少动态效果时停动画。覆盖历史“无轮播”中对预警列表的限制，其余区域保持原样。聚焦验收：`npm run verify:alerts`。
+
 ## GitHub Pages 发布（2026-09-16）
 
 用户已授权新建独立公开仓库 `xinwei5282-sys/chenxiang-ai-dashboard` 并开启网页预览。Pages 从 main 根目录部署，入口 `https://xinwei5282-sys.github.io/chenxiang-ai-dashboard/`。保持HTML/JS资源相对页面、CSS资源相对样式文件的路径，不恢复 `/assets/` 或 `/src/` 根路径。`.nojekyll` 用于直接托管静态文件。
