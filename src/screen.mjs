@@ -1,9 +1,10 @@
+import { startSimulation } from './simulation-view.mjs';
 import { layerIcon } from './layer-assets.mjs';
 const host=document.querySelector('#app');
 const icon=(name,cls='')=>`<img class="icon ${cls}" src="./assets/icons/${name}.svg" alt=""/>`;
 const metrics=[['box-fill','溯源档案','1,340','份'],['file-earmark-text-fill','溯源批次','186','批'],['share-fill','全链路节点','6','个'],['robot','AI 服务次数','2,725','次']];
 const abilities=[['book-half','产业知识库','沉香专业知识 · 智能问答'],['leaf-fill','全链路溯源','一物一码 · 来源可查'],['bar-chart-fill','AI 智能分析','产业数据 · 趋势研判'],['shield-fill-check','风险预警','异常识别 · 主动提醒']];
-// Fixed demonstration records; these are not live monitoring events.
+// Seed demonstration records; simulation-view replaces timestamps and adds simulated activity.
 const alerts=[
  ['预警','种植基地','3号区湿度偏高','09-18 16:32'],
  ['提示','检测证书','2份证书即将到期','09-18 16:25'],
@@ -46,3 +47,5 @@ for(const panel of document.querySelectorAll('.tech-panel')){
 function fit(){document.documentElement.style.setProperty('--screen-scale',Math.min(innerWidth/1671,innerHeight/941));}
 function clock(){document.querySelector('#clock').textContent=new Date().toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false});}
 window.addEventListener('resize',fit);fit();clock();setInterval(clock,1000);
+
+startSimulation();

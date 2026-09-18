@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "node server.mjs",
-    "check": "node --check src/screen.mjs && node --check src/layer-assets.mjs && node --check src/data.mjs && node --check src/knowledge.mjs && node --check server.mjs",
-    "test": "node --test tests/data.test.mjs tests/knowledge.test.mjs",
+    "check": "node --check src/simulation.mjs && node --check src/simulation-view.mjs && node --check src/screen.mjs && node --check src/layer-assets.mjs && node --check src/data.mjs && node --check src/knowledge.mjs && node --check server.mjs",
+    "test": "node --test tests/data.test.mjs tests/knowledge.test.mjs tests/simulation.test.mjs",
+    "verify:simulation": "node tests/simulation-browser.mjs",
     "verify:alerts": "node tests/alerts-browser.mjs",
     "verify:ui": "node tests/selected-browser.mjs"
   }

@@ -7,3 +7,6 @@
 .alert-row time{flex:0 0 68px;text-align:right;font-variant-numeric:tabular-nums}
 @keyframes alert-scroll{from{transform:translateY(0)}to{transform:translateY(-50%)}}
 @media(prefers-reduced-motion:reduce){.alert-track{animation-play-state:paused;transform:none;will-change:auto}}
+
+/* Stable digit widths keep live counters aligned during updates. */
+[data-counter]{font-variant-numeric:tabular-nums}
